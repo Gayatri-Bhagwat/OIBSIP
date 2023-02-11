@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.img1 {
+    height: 285px;
+    width: 220px;
+    order: 1;
+    margin-left: 356px;
+    margin-top: 91px;
+    border-radius: 42px;
+    cursor: pointer;
+    transition: transform 2s;
+
+}
+
+.img1:hover {
+    transform: scale(1.2);
+}
+
+.container {
+    background-color: black;
+    color: white;
+    height: 445px;
+    display: flex;
+}
+
+body {
+
+    margin: 20px;
+}
+
+.Early-Life {
+    order: 3;
+    position: relative;
+    top: 146px;
+    right: 153px;
+    width: 203px;
+    font-size: 15px;
+    text-align: justify;
+}
+
+.heading {
+    order: 2;
+    margin-top: 91px;
+    margin-left: 153px;
+    color: red;
+}
+
+.business {
+    text-decoration: underline;
+}
+
+.timeline {
+    height: 200px;
+    border: 1px solid red;
+    width: 5px;
+}
+
+ul {
+    list-style: none;
+    position: relative;
+    top: 25px;
+    right: 114px;
+    color: white;
+}
+
+li {
+    width: 164px;
+}
+
+.inner-container-1 {
+    margin-left: 127px;
+    width: 100px;
+}
+
+.inner-container {
+    background-color: gray;
+    padding: 10px;
+    text-align: justify;
+}
+
+.img1:hover {
+    transform: scale(1.2);
+}
+
+.container_two {
+    display: flex;
+    background-color: #202020;
+}
+
+h2 {
+    font-size: 25px;
+}
+
+.education {
+    position: relative;
+    right: 117px;
+    color: white;
+    top: 7px;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+button {
+    height: 40px;
+    width: 100px;
+    background-color: gray;
+    border: 1px solid black;
+    border-radius: 8px;
+    font-size: 13px;
+    font-weight: bold;
+    font-family: sans-serif;
+    cursor: pointer;
+}
+
+@keyframes fill-color {
+    from {
+        background-color: gray;
+    }
+
+    to {
+        background-color: red;
+    }
+}
+
+button a {
+    color: black;
+    text-decoration-line: none;
+}
+
+button:hover {
+    animation: fill-color 2s cubic-bezier(0.165, 0.84, 0.44, 1);
+    border-color: red;
+}
+
+.inner-container>p {
+    margin-top: 10px;
+}
+
+.inner-container>h3 {
+    margin-top: 10px;
+}
+
+b {
+    position: relative;
+    bottom: 6px;
+}
+
+.quote {
+    background-color: black;
+    color: white;
+    height: 80px;
+}
+
+.quote>p {
+    text-align: center;
+    position: relative;
+    top: 20px;
+    font-size: 20px;
+    font-family: 'Inconsolata', monospace;
+}
+
+.quote h2 {
+    position: relative;
+    left: 1100px;
+    top: 20px;
+}
