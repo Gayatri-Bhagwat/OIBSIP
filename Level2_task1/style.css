@@ -1,0 +1,128 @@
+body {
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 56px;
+    right: 25px;
+}
+
+.container input {
+    width: 205px;
+    height: 40px;
+    border: solid 1px lightgray;
+    border-radius: 10px;
+    font-size: 15px;
+    padding-left: 10px;
+    margin-left: 3px;
+    outline: none;
+}
+
+.container :not(.Equal, input) {
+    width: 52px;
+    height: 50px;
+    border: none;
+}
+
+.fa-toggle-off {
+    padding-left: 218px;
+    position: relative;
+    bottom: 16px;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.spc-btn {
+    background-color: lightgray;
+    color: black;
+    font-size: 18px;
+}
+
+.Clear {
+    background-color: lightgray;
+}
+
+.container-big {
+    box-shadow: -9px 13px 6px -4px rgba(181, 151, 151, 0.75);
+    background-color: lightgray;
+    border-radius: 14px;
+}
+
+.spc-btn:hover,
+.Clear:hover {
+    background-color: rgb(197, 250, 161);
+}
+
+.Equal {
+    position: absolute;
+    margin-top: -24px;
+    width: 108px;
+    height: 50px;
+    border: none;
+    background-color: orange;
+}
+
+.container {
+    background: whitesmoke;
+    height: 341px;
+    width: 266px;
+    padding-left: 24px;
+    padding-top: 20px;
+    border: 2px solid whitesmoke;
+    border-bottom-left-radius: 14px;
+    border-bottom-right-radius: 14px;
+}
+
+button {
+    background-color: lightgray;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.num:hover {
+    background-color: lightblue;
+
+}
+
+button {
+    font-size: 18px;
+    text-align: center;
+    color: black;
+}
+
+.heading {
+    padding-right: 123px;
+    background-color: lightgray;
+    height: 25px;
+    padding-left: 27px;
+    width: 140px;
+    margin-bottom: -1px;
+    color: black;
+    border: 2px solid lightgray;
+}
+
+.bxs-tag-x {
+    margin-top: 12px;
+    margin-left: -4px;
+}
+
+.container-new {
+    background: black;
+    height: 341px;
+    width: 266px;
+    padding-left: 24px;
+    padding-top: 20px;
+    border: 2px solid black;
+    border-bottom-left-radius: 14px;
+    border-bottom-right-radius: 14px;
+}
+
+.font-new:hover {
+    background-color: rgb(252, 211, 136);
+}
+
+.new-button:hover {
+    background-color: rgb(186, 211, 226);
+}
